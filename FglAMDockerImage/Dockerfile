@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER fglam@quest.com
+LABEL email="fglam@quest.com"
 RUN apt-get update \
 && apt-get -y install \
 && apt-get clean \
